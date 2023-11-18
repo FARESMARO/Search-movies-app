@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/one-piece-luffy-and-shanks-silhouette-7tybiy29bfjoh2fh.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.class {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Button {
+    width: 120px;
+    height: 30px;
+    background: #ffffff;
+    color: black;
+    margin-top: 17px;
+    margin-left: 3px;
+    cursor: pointer;
+    transition: 450ms ease-in-out;
+}
+
+.Button:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.Card {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Box {
+    width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Box {
+        width: 200px;
+    }
+}
